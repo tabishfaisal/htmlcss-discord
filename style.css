@@ -9,20 +9,42 @@ ul,ol{
     margin: 0;
     padding: 0;
 }
+/*--resetting--*/
+
+
+
+
 .main-header{
     max-width: 900px;
-    background-color: aqua;
+    font-size: smaller;
+    background-image: url(./imgs/jumbo.png);
+    background-size: 900px 150px;
+    background-repeat: no-repeat;
+    color: white;
 }
 .navbar{
     display: flex;
     justify-items: center;
     justify-content: space-between;
-    background-color: orange;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .main-menu{
     display: flex;
+    align-items: center;
     gap: 20px;
 }
+.login{
+    display: flex;
+    align-items: center;
+    border: 2px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/*--heading section--*/
 
 
 /*--section--*/
@@ -30,72 +52,91 @@ ul,ol{
 .row{
     display: flex;
     justify-content: center;
-    border: 1px solid black;
     width: 900px;
-    height: 150px;
-    background-color: blue;
 }
 .col{
-   
-    border: 2px dotted black;
-    width: 33%;
-    height: 120px;
-    background-color: pink;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    text-align: center;
+    font-size: small;
+    font-weight: lighter;
+    width: 500px;
+    height: 150px;
 }
-/*--section--*/
-.rowA{
+.navigation{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 10px;
+}
+.Mac{
     border: 1px;
-    width: 900px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding: 3px;
+    margin: 16px;
+}
+.browser{
+    border: 1px;
+    border-radius: 10px;
+    background-color: black;
+    padding: 3px;
+    margin: 16px;
+}
+
+/*--section main--*/
+
+
+.row-2{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     flex-wrap: wrap;
+     width: 900px;
+     height: 150px;
+}
+.imgs{
+    width: 230px;
     height: 150px;
+    margin-left: 150px;
 }
-.col1{
-    border: 2px dotted black;
-    width: 25%;
-    height: 120px;
-    background-color: skyblue;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.pg{
+    width: 170px;
+    height: 124px;
+    margin-right: 150px;
 }
-.col2{
-    border: 2px dotted black;
-    width: 20%;
-    height: 120px;
-    background-color: lightcoral;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.letters{
+    font-size: x-small;
 }
+/*--added new classes name--*/
+
 /*--section--*/
-.rowB{
+.row-2-reverse{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 1px;
     width: 900px;
     height: 150px;
-    background-color: grey;
+    background-color: lightgray;
 }
-.col3{
-    border: 2px dotted black;
-    width: 20%;
-    height: 120px;
-    background-color: lightcoral;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.pg-2{
+    width: 170px;
+    height: 124px;
 }
-.col4{
-    border: 2px dotted black;
-    width: 25%;
-    height: 120px;
-    background-color: skyblue;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.heading{
+    margin-bottom: 2px;
+    margin-top: 5px;
 }
+.letters-2{
+    font-size: x-small;
+}
+.img-b{
+    width: 230px;
+    height: 150px;
+}
+
 /*--section--*/
+
+
 .rowC{
     display: flex;
     flex-direction: row;
