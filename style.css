@@ -133,141 +133,124 @@ ul,ol{
     width: 230px;
     height: 150px;
 }
-
 /*--section--*/
 
 
-.rowC{
+.row-b{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 1px;
     width: 900px;
     height: 150px;
-    background-color: white;
 }
-.col5{
-    border: 2px dotted black;
-    width: 25%;
-    height: 120px;
-    background-color: skyblue;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.col6{
-    border: 2px dotted black;
-    width: 20%;
-    height: 120px;
-    background-color: lightcoral;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.rowD{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border: 1px;
-    width: 900px;
-    height: 300px;
-    background-color: grey;
-}
-.col7{
-    border: 2px dotted black;
-    width: 45%;
-    height: 240px;
-    background-color: green;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
- /*--section column--*/
- .rowE{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border: 1px;
-    width: 900px;
+.img-item3{
+    width: 270px;
     height: 150px;
+}
+.item3-paragraph{
+    width: 130px;
+    height: 150px;
+}
+.letter-item3{
+    font-size: x-small;
+}
+
+/*--large photo--*/
+.row-c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    height: 450px;
+    background-color: lightgray;
+}
+.large-photo{
+    padding-top: 50px;
+    width: 400px;
+    height: 100px;
+}
+.large-photo-letter{
+    font-size: x-small;
+}
+.big-photo{
+    width: 400px;
+    height: 250px;
+    padding-bottom: 50px;
+}
+/*added other downloading link--*/
+.row-bars{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 100px;
+    background-image: url(./imgs/stars.svg);
+    background-repeat: no-repeat;
+    background-color: rgba(211, 211, 211, 0.965);
+}
+.download-icon{
+    border: 16px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px;
+}
+/*--information bar--*/
+
+.row-call-info{
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    height: 150px;
+    border: 2px solid black;
     background-color: rgba(0, 0, 0, 0.704);
  }
- .col8{
+ .post-parlare{
     border: 2px dotted black;
-    width: 15%;
-    height: 120px;
-    background-color: palevioletred;
+    width: calc(100% /2);
+    height: 150px;
     margin-top: 5px;
     margin-bottom: 15px;
  }
- .col9{
+ .prodotti{
     border: 2px dotted white;
-    width: 7.5%;
+    width: calc(100%/6);
     height: 120px;
-    background-color:rgb(0, 180, 168);
     margin-top: 5px;
     margin-bottom: 15px;
  }
- .col10{
+ .compagnia{
     border: 2px dotted white;
-    width: 7.5%;
+    width: calc(100%/6);
     height: 120px;
-    background-color:rgb(0, 180, 168);
     margin-top: 5px;
     margin-bottom: 15px;
  }
- .col11{
+ .risorse{
     border: 2px dotted white;
-    width: 7.5%;
+    width: calc(100%/6);
     height: 120px;
-    background-color:rgb(0, 180, 168);
     margin-top: 5px;
     margin-bottom: 15px;
  }
- .col12{
+ .norme{
     border: 2px dotted white;
-    width: 7.5%;
+    width: calc(100%/6);
     height: 120px;
-    background-color:rgb(0, 180, 168);
     margin-top: 5px;
     margin-bottom: 15px;
  }
- /*--footer section--*/
 
- .containerG{
-    display: flex;
-    justify-content: center;
-    border: 1px solid white;
-    width: 900px;
-    height: 35px;
-    background-color:rgba(0, 0, 0, 0.704);
- }
- .rowG{
-    border: 2px solid black;
-    width: 900px;
-    height: 25px;
-    background-color: rgb(144, 238, 177);
-    margin-top: 5px;
-    margin-bottom: 0px;
-}
 
-.col13{
-    border: 2px dotted black;
-    width: 8%;
-    height: 15px;
-    background-color: pink;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    margin-right: 95%
-}
-.col14{
-    border: 2px dotted black;
-    width: 8%;
-    height: 15px;
-    background-color: pink;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    margin-left: 95%
-}
-.rowG *{
-    display: flex;
-    justify-items: center;
-    justify-content: space-between;
-}
+
+
+
+
+
+
+
+
+
+
+
